@@ -174,6 +174,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\Images\DownFillTriangleIcon.png" />
+    <Content Include="Content\Images\RightFillTriangleIcon.png" />
+    <Content Include="Content\pel.css" />
+    <Content Include="Content\pif.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -234,6 +238,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="css\source-sans-pro.js" />
+    <Content Include="css\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -248,6 +254,35 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="img\Andy_Bernard.jpg" />
+    <Content Include="img\Angela_Martin.jpg" />
+    <Content Include="img\Creed_Bratton.jpg" />
+    <Content Include="img\Dwight_Schrute.jpg" />
+    <Content Include="img\Jim_Halpert.jpg" />
+    <Content Include="img\Kelly_Kapoor.jpg" />
+    <Content Include="img\Kevin_Malone.jpg" />
+    <Content Include="img\Meredith_Palmer.jpg" />
+    <Content Include="img\Michael_Scott.jpg" />
+    <Content Include="img\Oscar_Martinez.jpg" />
+    <Content Include="img\Pamela_Beesly.jpg" />
+    <Content Include="img\Phyllis_Lapin.jpg" />
+    <Content Include="img\Ryan_Howard.jpg" />
+    <Content Include="img\Stanley_Hudson.jpg" />
+    <Content Include="img\Toby_Flenderson.jpg" />
+    <Content Include="img\unknown.jpg" />
+    <Content Include="js\EmployeeView.js" />
+    <Content Include="js\HomeView.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\SewerInspectionModel.js" />
+    <Content Include="js\SewerInspectionView.js" />
+    <Content Include="js\storage\ls-store.js" />
+    <Content Include="js\storage\memory-store.js" />
+    <Content Include="js\storage\websql-store.js" />
+    <Content Include="lib\handlebars.js" />
+    <Content Include="lib\iscroll.js" />
+    <Content Include="lib\jquery-1.8.2.min.js" />
+    <Content Include="lib\knockout-2.2.1.debug.js" />
+    <Content Include="lib\knockout-2.2.1.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
