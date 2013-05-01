@@ -64,6 +64,7 @@ var app = {
             currentPageDest = "stage-right";
         } else {
             // Forward transition (slide from right)
+            app.homePage.attr('isvisible', 'false');
             $(page.el).attr('class', 'page stage-right');
             currentPageDest = "stage-left";
         }
@@ -84,7 +85,7 @@ var app = {
     initialize: function () {
         var self = this;
         this.detailsURL = /^#employees\/(\d{1,})/;
-        this.SewerInspectionURL = /#SewerInspection/;
+        this.SewerInspectionURL = /^#SewerInspection/;
         this.registerEvents();
         this.store = new MemoryStore(function () {
             self.route();

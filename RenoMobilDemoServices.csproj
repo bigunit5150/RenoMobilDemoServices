@@ -166,6 +166,7 @@
     <Compile Include="DAL\RMDContext.cs" />
     <Compile Include="DAL\RMDInitializer.cs" />
     <Compile Include="DAL\RMDRepositoryManager.cs" />
+    <Compile Include="Handlers\CorsHandler.cs" />
     <Compile Include="Models\SewerLateralInspectionForm.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
