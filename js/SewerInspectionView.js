@@ -4,6 +4,8 @@
         this.el = $('<div/>');
         this.el.on('click', '.add-pic-btn', this.addPicture);
         this.el.on('click', '#nothing', this.submitForm);
+        this.el.on('click', '.get-gps-btn', this.getGPS);
+        this.el.on('click', '.take-pic-btn', this.takePicture);
     };
 
     this.render = function() {
@@ -11,7 +13,7 @@
         return this;
     };
 
-    this.addPicture = function(event) {
+    this.takePicture = function(event) {
         event.preventDefault();
         console.log('addPicture');
         if (!navigator.camera) {
@@ -52,6 +54,19 @@
                 alert(status);
             }
         });
+    };
+
+    this.getGPS = function() {
+        event.preventDefault();
+        console.log('addLocation');
+        navigator.geolocation.getCurrentPosition(
+            function (position) {
+                $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
+            },
+            function () {
+                alert('Error getting location');
+            });
+        return false;
     };
     
    this.initialize();
