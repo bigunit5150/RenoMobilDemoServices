@@ -15,6 +15,7 @@ namespace RenoMobilDemoServices.Controllers
 
         public void Post(SewerLateralInspectionForm form)
         {
+            form.InspectionDate = DateTime.Now;
             _repository.SewerLateralInspectionForms.Insert(form);
             _repository.Save();
         }
@@ -24,7 +25,7 @@ namespace RenoMobilDemoServices.Controllers
             return new SewerLateralInspectionForm
                 {
                     APNNumber = "1",
-                    GPSCleanout = "2",
+                    GPSCleanout = "3",
                     GPSMain = "4"
                 };
         }
